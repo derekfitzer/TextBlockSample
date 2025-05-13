@@ -11,7 +11,7 @@ import SwiftUI
 struct TextBlockSampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Content2(blocks: sampleBlocks)
         }
     }
 }
